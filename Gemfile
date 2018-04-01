@@ -1,9 +1,5 @@
 source 'https://rubygems.org'
 
-# authentification
-#gem 'devise'
-#gem 'pundit'
-
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
@@ -12,6 +8,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'bootstrap', '~> 4.0.0'
 
 group :development, :test do
   gem 'sqlite3'
